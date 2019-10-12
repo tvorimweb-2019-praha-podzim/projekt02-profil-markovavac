@@ -15,5 +15,116 @@ html { box-sizing: border-box; }
 
 
 body {
-    background-color: #bdc3c7;
+  background-color: #bdc3c7;
+  width: 250px;
+  margin: 0;
+  margin-bottom: 100px;
+  padding: 0;
+  }
+
+img{
+  width: 250px;
+  position: relative;
+  display: block;
+}
+
+.obsah{
+  background-color: #31363b;
+}
+
+p {
+  color: grey;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+
+h1{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+
+.logo{
+  background-color: #b92e81;
+  width: 50px;
+  height: 50px; 
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  left: 195px;
+  top: 195px;
+}
+
+.profil{
+  margin-left: 20px;
+  margin-top: 50px;
+  width: 250px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.obsah{
+  padding:20px;
+  font-size: 15px;
+}
+
+.odkazy li{
+  display: inline-block;
+}
+
+.odkazy a{
+  text-decoration: none;
+  display: inline-block;
+  color: grey;
+  padding: 10px, 10px;
+  text-transform: uppercase;
+}
+
+.odkazy{
+  background-color: #31363b;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0;
+  text-align: center;
+}
+
+.portfolio{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 10px;
+  border-top: 1px solid #3f464d;
+}
+
+.facebook{
+  display:inline-block;
+  width: 50%;
+  padding: 10px 10px;
+  text-align: center;
+  border-top: 1px solid #3f464d;
+  border-right: 1px solid #3f464d;
+}
+
+.twitter{
+  display: inline-block;
+  width: 50%;
+  padding: 10px 10px;
+  border-top: 1px solid #3f464d;
+}
+
+.portfolio:hover{
+  background-color: #e74c3c;
+}
+
+.facebook:hover{
+  background-color: #3b5998;
+}
+
+.twitter:hover{
+  background-color: #1da1f2;
+}
+a:hover{
+  color: whitesmoke;
 }
